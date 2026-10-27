@@ -120,7 +120,7 @@ function App() {
             <p className="hero-description">I'm Jagadeesan — a Software Engineer with 3+ years of experience building JavaScript applications, REST APIs, and workflow automation for the BFSI domain.</p>
             <div className="hero-actions">
               <button className="button-primary" onClick={() => goTo('projects')}>Explore my work <ArrowDownRight size={17} /></button>
-              <button className="button-quiet" onClick={() => goTo('contact')}>Let's talk <ArrowUpRight size={16} /></button>
+              {/* <button className="button-quiet" onClick={() => goTo('contact')}>Let's talk <ArrowUpRight size={16} /></button> */}
             </div>
             <div className="hero-meta">
               <div><strong>3+</strong><span>Years in software</span></div>
@@ -199,7 +199,7 @@ function App() {
           </div>
         </section>
 
-        <section className="contact section-wrap section-block" id="contact">
+        {/* <section className="contact section-wrap section-block" id="contact">
           <div className="contact-panel"><div className="contact-left"><SectionLabel>05 / GET IN TOUCH</SectionLabel><h2>Have a good<br />problem to <span className="serif-accent">solve?</span></h2><p>I'm open to conversations about software engineering opportunities, collaboration, and interesting products.</p><a className="contact-email" href="mailto:jagadeeshjagan539@gmail.com"><Mail size={17} /> jagadeeshjagan539@gmail.com <ArrowUpRight size={15} /></a><div className="contact-socials"><a href="https://www.linkedin.com/in/jagadeesan-p-b88057251" target="_blank" rel="noreferrer"><Linkedin size={16} /> LinkedIn <ExternalLink size={12} /></a><span><MapPin size={15} /> Chennai, India</span></div></div>
             <form className="contact-form" onSubmit={submitContact}>
               <div className="form-heading"><MessageCircle size={18} /><span>Send a message</span></div>
@@ -212,7 +212,7 @@ function App() {
               <p className="form-footnote">Prefer email? <a href="mailto:jagadeeshjagan539@gmail.com">Write to me directly</a>.</p>
             </form>
           </div>
-        </section>
+        </section> */}
       </main>
 
       <footer className="site-footer section-wrap"><a className="wordmark footer-mark" href="#home"><span className="wordmark-mark">J<span>.</span></span></a><p>Designed with intention. Built with JavaScript.</p><span>© {new Date().getFullYear()} JAGADEESAN P</span><button className="back-top" onClick={() => goTo('home')} aria-label="Back to top"><ArrowUpRight size={17} /></button></footer>
